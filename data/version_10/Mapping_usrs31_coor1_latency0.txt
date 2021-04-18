@@ -1,0 +1,62 @@
+User: 0 FoV ID: 0 BW Trace: 20.09036868686869 Latency group: 1
+ # Segs: 84 Ave rates: 3.7632983421602937 Total freezing: 0.7 Average cross_entropy: 4.202734533072333 0.4035576233458721
+User: 1 FoV ID: 1 BW Trace: 19.702762626262626 Latency group: 2
+ # Segs: 89 Ave rates: 2.6697990437165204 Total freezing: 0.43 Average cross_entropy: 6.7848733734405355 0.2947872892254514
+User: 2 FoV ID: 2 BW Trace: 18.662717171717173 Latency group: 3
+ # Segs: 95 Ave rates: 2.802007820777129 Total freezing: 0.6900000000000001 Average cross_entropy: 3.358062249290703 0.31320685453604497
+User: 3 FoV ID: 3 BW Trace: 19.702762626262626 Latency group: 0
+ # Segs: 79 Ave rates: 5.9774377730299095 Total freezing: 1.17 Average cross_entropy: 8.797165557936378 0.5380526587399905
+User: 4 FoV ID: 4 BW Trace: 17.689126262626264 Latency group: 1
+ # Segs: 84 Ave rates: 2.4964155756498014 Total freezing: 0.5900000000000001 Average cross_entropy: 5.255245196417979 0.3873356548768035
+User: 5 FoV ID: 5 BW Trace: 18.200484848484848 Latency group: 2
+ # Segs: 89 Ave rates: 2.9806417370982676 Total freezing: 0.64 Average cross_entropy: 5.995772986435213 0.3735103528891109
+User: 6 FoV ID: 6 BW Trace: 17.689126262626264 Latency group: 3
+ # Segs: 95 Ave rates: 1.7961602007393533 Total freezing: 0.68 Average cross_entropy: 5.189193687658394 0.28756162834528365
+User: 7 FoV ID: 7 BW Trace: 20.568878787878788 Latency group: 0
+ # Segs: 79 Ave rates: 6.743480499097342 Total freezing: 2.2 Average cross_entropy: 7.48805322737624 0.5945711003729183
+User: 8 FoV ID: 8 BW Trace: 16.672308080808083 Latency group: 1
+ # Segs: 84 Ave rates: 3.872908500402851 Total freezing: 0.66 Average cross_entropy: 4.5012869058243 0.5562742652608453
+User: 9 FoV ID: 9 BW Trace: 16.634444444444444 Latency group: 2
+ # Segs: 89 Ave rates: 5.66889166060623 Total freezing: 2.02 Average cross_entropy: 2.3545470589753994 0.5998024280401004
+User: 10 FoV ID: 10 BW Trace: 16.261474747474747 Latency group: 3
+ # Segs: 95 Ave rates: 3.336905764803772 Total freezing: 0.6900000000000001 Average cross_entropy: 3.09275793817508 0.4201713523208936
+User: 11 FoV ID: 11 BW Trace: 16.307398989898992 Latency group: 0
+ # Segs: 79 Ave rates: 3.854739303414381 Total freezing: 1.02 Average cross_entropy: 8.533566293918028 0.5424189043715879
+User: 12 FoV ID: 12 BW Trace: 16.672308080808083 Latency group: 1
+ # Segs: 84 Ave rates: 3.892803058880875 Total freezing: 0.61 Average cross_entropy: 4.2741084108537635 0.5389576934287001
+User: 13 FoV ID: 13 BW Trace: 16.307398989898992 Latency group: 2
+ # Segs: 89 Ave rates: 2.9722712778201954 Total freezing: 0.67 Average cross_entropy: 4.84599089216607 0.3815600333216916
+User: 14 FoV ID: 14 BW Trace: 16.83524242424242 Latency group: 3
+ # Segs: 95 Ave rates: 2.8278681512211103 Total freezing: 0.6900000000000001 Average cross_entropy: 3.141438693865511 0.30580198632058403
+User: 15 FoV ID: 15 BW Trace: 17.229873737373737 Latency group: 0
+ # Segs: 79 Ave rates: 3.2009515074830897 Total freezing: 1.13 Average cross_entropy: 12.629955081287292 0.3930306172921942
+User: 16 FoV ID: 16 BW Trace: 15.40567171717172 Latency group: 1
+ # Segs: 84 Ave rates: 5.068880146990825 Total freezing: 0.67 Average cross_entropy: 2.7359463337430956 0.6063655627829266
+User: 17 FoV ID: 17 BW Trace: 14.663550505050507 Latency group: 2
+ # Segs: 89 Ave rates: 3.8088237963797646 Total freezing: 2.3600000000000003 Average cross_entropy: 2.518654612010941 0.5077143032724613
+User: 18 FoV ID: 18 BW Trace: 16.093121212121208 Latency group: 3
+ # Segs: 95 Ave rates: 1.7989528424705246 Total freezing: 0.67 Average cross_entropy: 4.015843494412788 0.2488023833982485
+User: 19 FoV ID: 19 BW Trace: 15.132166666666667 Latency group: 0
+ # Segs: 79 Ave rates: 4.836850543720792 Total freezing: 2.26 Average cross_entropy: 7.46793739274714 0.5751420300412861
+User: 20 FoV ID: 20 BW Trace: 14.013631313131311 Latency group: 1
+ # Segs: 84 Ave rates: 2.3255086664717397 Total freezing: 0.65 Average cross_entropy: 7.7180667753878796 0.36132094119168856
+User: 21 FoV ID: 21 BW Trace: 16.093121212121208 Latency group: 2
+ # Segs: 89 Ave rates: 2.9004172787629785 Total freezing: 0.7000000000000001 Average cross_entropy: 3.750078701168645 0.4129671178031209
+User: 22 FoV ID: 22 BW Trace: 15.221641414141414 Latency group: 3
+ # Segs: 95 Ave rates: 3.326550460703123 Total freezing: 0.6900000000000001 Average cross_entropy: 2.2559012015480255 0.4996917330326317
+User: 23 FoV ID: 23 BW Trace: 15.395358585858583 Latency group: 0
+ # Segs: 79 Ave rates: 5.219135451369591 Total freezing: 0.68 Average cross_entropy: 5.560518753931229 0.6521448563244436
+User: 24 FoV ID: 24 BW Trace: 14.728282828282827 Latency group: 1
+ # Segs: 84 Ave rates: 2.990524768104658 Total freezing: 1.21 Average cross_entropy: 4.29432152703171 0.4060667485407543
+User: 25 FoV ID: 25 BW Trace: 14.584262626262625 Latency group: 2
+ # Segs: 89 Ave rates: 3.1792234220723845 Total freezing: 0.66 Average cross_entropy: 2.9960011706376504 0.45027630861783857
+User: 26 FoV ID: 26 BW Trace: 14.590106060606063 Latency group: 3
+ # Segs: 95 Ave rates: 2.690483323537794 Total freezing: 0.64 Average cross_entropy: 3.7305813152317913 0.3663536510238594
+User: 27 FoV ID: 27 BW Trace: 14.075636363636361 Latency group: 0
+ # Segs: 79 Ave rates: 3.8533465109660994 Total freezing: 3.8200000000000003 Average cross_entropy: 7.0142952283433715 0.5663335415160297
+User: 28 FoV ID: 28 BW Trace: 14.075636363636361 Latency group: 1
+ # Segs: 84 Ave rates: 3.9506660357486587 Total freezing: 2.3000000000000003 Average cross_entropy: 2.747018798682778 0.5674188381519778
+User: 29 FoV ID: 29 BW Trace: 14.386040404040402 Latency group: 2
+ # Segs: 89 Ave rates: 3.164605168377196 Total freezing: 0.68 Average cross_entropy: 3.3462583755155375 0.4036876429338999
+User: 30 FoV ID: 30 BW Trace: 14.009848484848487 Latency group: 3
+ # Segs: 95 Ave rates: 2.620749482467306 Total freezing: 0.6900000000000001 Average cross_entropy: 2.988883193994105 0.35179214714633994
