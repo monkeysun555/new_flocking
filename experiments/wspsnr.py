@@ -9,9 +9,9 @@ import os
 
 SHOW = 0
 n_l_groups = 4
-n_enhanced_version = [0, 8, 12, 11, 7]
+n_enhanced_version = [0, 8, 11, 12, 7]
 # label = ['Heuristic', 'D-Heuristic', 'LSTM$_{t/c}^{-a}$', 'LSTM$_{t/c}^{-d}$', 'LSTM$_{t/c}$']
-label = ['HF', 'DHF', 'IF$^{-a}$', 'IF$^{-d}$', 'IF']
+label = ['H-Flocking', 'Self-Pre', 'Co-Pre', 'Prop', 'Flocking']
 
 # n_enhanced_version = [0, 2, -2, 7]
 # label = ['Heuristic', 'D-Heuristic', 'LSTM$_{t/c}^{-}$', 'LSTM$_{t/c}$']
@@ -134,8 +134,8 @@ def read_data_file_enhanced():
     for i in range(len(n_enhanced_version)):
         curr_line = '{ \\bf ' +  label[i] + '} & '
         for l_g in range(5):
-            curr_line += ' ' + str_kl[l_g][i] + ' & '
-            # curr_line += ' ' + str_nss[l_g][i] + ' & '
+            # curr_line += ' ' + str_kl[l_g][i] + ' & '
+            curr_line += ' ' + str_nss[l_g][i] + ' & '
             # curr_line += ' ' + str_ra[l_g][i] + ' & '
             curr_line += ' ' + str_freeze[l_g][i] + ' & '
             curr_line += ' ' + str_qua[l_g][i] + ' &'
@@ -151,7 +151,7 @@ def read_data_file_enhanced():
     if not os.path.isdir(cdf_path):
         os.makedirs(cdf_path)
     plot_cdf(cdf_freezes, 'Freeze (s)', cdf_path)
-    plot_cdf(cdf_wspsnr, 'Quality (s)', cdf_path)
+    plot_cdf(cdf_wspsnr, 'Quality (db)', cdf_path)
 
     # return
     compare_path = './compare/'

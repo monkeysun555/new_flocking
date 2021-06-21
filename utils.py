@@ -197,7 +197,7 @@ def get_group_idx_equal(u_id):
     # group_prob_cumsum = np.cumsum(latency_info[0])
     latency_value = latency_info[1]
     # l_group_idx = (group_prob_cumsum > np.random.randint(1, 100) / float(100)).argmax()
-    l_group_idx = (u_id+1)%4
+    l_group_idx = (u_id)%4
     buffer_upper = translate_group_to_bu_equal(l_group_idx)
     return l_group_idx, latency_value[l_group_idx], buffer_upper 
 

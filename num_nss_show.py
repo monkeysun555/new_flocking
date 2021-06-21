@@ -164,15 +164,15 @@ def plot_bar(types_data, odata):
                 hatch=patterns[0]*6, linewidth=1.0, zorder = 0, label='TLP')
     ax.bar(tlp_o_p, tlp_o, color='none', width=bar_width, edgecolor='k', linewidth=0.5)
 
-    ax.bar(one_tlp_p, one_tlp, color='none', width=bar_width, edgecolor=new_palette[1], \
+    ax.bar(one_tlp_p, one_tlp, color='none', width=bar_width, edgecolor=new_palette[2], \
                 hatch=patterns[1]*6, linewidth=1.0, zorder = 0, label='Co-TLP (6)')
     ax.bar(one_tlp_p, one_tlp, color='none', width=bar_width, edgecolor='k', linewidth=0.5)
 
-    ax.bar(half_tlp_p, half_tlp, color='none', width=bar_width, edgecolor=new_palette[2], \
+    ax.bar(half_tlp_p, half_tlp, color='none', width=bar_width, edgecolor=new_palette[3], \
                 hatch=patterns[2]*6, linewidth=1.0, zorder = 0, label='Co-TLP (18)')
     ax.bar(half_tlp_p, half_tlp, color='none', width=bar_width, edgecolor='k', linewidth=0.5)
 
-    ax.bar(all_tlp_p, all_tlp, color='none', width=bar_width, edgecolor=new_palette[3], \
+    ax.bar(all_tlp_p, all_tlp, color='none', width=bar_width, edgecolor=new_palette[1], \
                 hatch=patterns[3]*6, linewidth=1.0, zorder = 0, label='Co-TLP (30)')
     ax.bar(all_tlp_p, all_tlp, color='none', width=bar_width, edgecolor='k', linewidth=0.5)
 
@@ -181,15 +181,15 @@ def plot_bar(types_data, odata):
                 hatch=patterns[0]*6, linewidth=1.0, zorder = 0, label='LSTM$_{t}$')
     ax.bar(lstm_o_p, lstm_o, color='none', width=bar_width, edgecolor='k', linewidth=0.5)
 
-    ax.bar(one_lstm_p, one_lstm, color='none', width=bar_width, edgecolor=new_palette[5], \
+    ax.bar(one_lstm_p, one_lstm, color='none', width=bar_width, edgecolor=new_palette[6], \
                 hatch=patterns[1]*6, linewidth=1.0, zorder = 0, label='LSTM$_{c}$ (6)')
     ax.bar(one_lstm_p, one_lstm, color='none', width=bar_width, edgecolor='k', linewidth=0.5)   
 
-    ax.bar(half_lstm_p, half_lstm, color='none', width=bar_width, edgecolor=new_palette[6], \
+    ax.bar(half_lstm_p, half_lstm, color='none', width=bar_width, edgecolor=new_palette[7], \
                 hatch=patterns[2]*6, linewidth=1.0, zorder = 0, label='LSTM$_{c}$ (18)')
     ax.bar(half_lstm_p, half_lstm, color='none', width=bar_width, edgecolor='k', linewidth=0.5)
 
-    ax.bar(all_lstm_p, all_lstm, color='none', width=bar_width, edgecolor=new_palette[7], \
+    ax.bar(all_lstm_p, all_lstm, color='none', width=bar_width, edgecolor=new_palette[5], \
                 hatch=patterns[3]*6, linewidth=1.0, zorder = 0, label='LSTM$_{c}$ (30)')
     ax.bar(all_lstm_p, all_lstm, color='none', width=bar_width, edgecolor='k', linewidth=0.5)
 

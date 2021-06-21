@@ -82,7 +82,7 @@ def plot_entropy(t1, t2, t3, t4):
             group_len = 7
         for u_id in range(group_len):
             position.append(curr_pos)
-            curr_pos += 2.45
+            curr_pos += 1.25
         curr_pos += 1.2
     group_len = 8
     width = 0.3  # the width of the bars
@@ -92,22 +92,22 @@ def plot_entropy(t1, t2, t3, t4):
     p = plt.figure(figsize=(25,5))
 
 
-    plt.bar(position, co0_data, color='none', width=width, edgecolor=new_palette[0], \
-                hatch=patterns[0]*6, linewidth=1.0, zorder = 0, label='TLP Self Prediction')
-    plt.bar(position, co0_data, color='none', width=width, edgecolor='k', linewidth=0.5)
+    plt.bar(position, lstm, color='none', width=width, edgecolor=new_palette[0], \
+                hatch=patterns[0]*6, linewidth=1.0, zorder = 0, label='LSTM based Self Prediction')
+    plt.bar(position, lstm, color='none', width=width, edgecolor='k', linewidth=0.5)
 
-    plt.bar([x + width + pos_gap for x in position], co1_data, color='none', width=width, edgecolor=new_palette[1], \
-                hatch=patterns[2]*6, linewidth=1.0, zorder = 0, label='TLP Collaborative')
-    plt.bar([x + width + pos_gap for x in position], co1_data, color='none', width=width, edgecolor='k', linewidth=0.5)  
+    plt.bar([x + width + pos_gap for x in position], lstm_c, color='none', width=width, edgecolor=new_palette[1], \
+                hatch=patterns[2]*6, linewidth=1.0, zorder = 0, label='LSTM based Collaborative Prediction')
+    plt.bar([x + width + pos_gap for x in position], lstm_c, color='none', width=width, edgecolor='k', linewidth=0.5)  
 
 
-    plt.bar([x + 2*(width + pos_gap) for x in position], lstm, color='none', width=width, edgecolor=new_palette[2], \
-                hatch=patterns[2]*6, linewidth=1.0, zorder = 0, label='LSTM Self Prediction')
-    plt.bar([x + 2*(width + pos_gap)  for x in position], lstm, color='none', width=width, edgecolor='k', linewidth=0.5)    
+    # plt.bar([x + 2*(width + pos_gap) for x in position], lstm, color='none', width=width, edgecolor=new_palette[2], \
+    #             hatch=patterns[2]*6, linewidth=1.0, zorder = 0, label='LSTM Self Prediction')
+    # plt.bar([x + 2*(width + pos_gap)  for x in position], lstm, color='none', width=width, edgecolor='k', linewidth=0.5)    
 
-    plt.bar([x + 3*(width + pos_gap) for x in position], lstm_c, color='none', width=width, edgecolor=new_palette[3], \
-                hatch=patterns[2]*6, linewidth=1.0, zorder = 0, label='LSTM Collaborative Prediction')
-    plt.bar([x + 3*(width + pos_gap)  for x in position], lstm_c, color='none', width=width, edgecolor='k', linewidth=0.5)   
+    # plt.bar([x + 3*(width + pos_gap) for x in position], lstm_c, color='none', width=width, edgecolor=new_palette[3], \
+    #             hatch=patterns[2]*6, linewidth=1.0, zorder = 0, label='LSTM Collaborative Prediction')
+    # plt.bar([x + 3*(width + pos_gap)  for x in position], lstm_c, color='none', width=width, edgecolor='k', linewidth=0.5)   
 
     # rects0 = plt.bar(position, co0_data, width, alpha=opacity, color='b', label='co0')
     # rects1 = plt.bar([x + pos_gap for x in position], co1_data, width, alpha=opacity, color='g', label='co1')
@@ -116,7 +116,7 @@ def plot_entropy(t1, t2, t3, t4):
     xticks_pos = [ position[group_id*group_len+4] - pos_gap for group_id in range(n_group)]
     plt.xticks(xticks_pos, ['Latency Group 1', 'Latency Group 2', 'Latency Group 3', 'Latency Group 4'], fontsize=20)
     plt.yticks(np.arange(0, y_axis_upper, 0.2), fontsize=20)
-    plt.axis([-width, position[-1] + 4*(pos_gap+width), 0.2, 0.82])
+    plt.axis([-width, position[-1] + 2*(pos_gap+width), 0.2, 0.82])
     plt.ylabel('Tile Overlap Ratio', fontsize=20)
     plt.close()
     plt.tight_layout()

@@ -1575,7 +1575,7 @@ class User(object):
         self.save_download_size(download_sizes)
         self.save_wspsnr(viewed_wspsnr)
         self.save_ratios(viewed_ratios)
-        self.save_nss(video_nss)
+        self.save_nss(overlap_ratio)
         self.save_fov()
         return video_rates, video_freeze, cross_entropys, overlap_ratio
 

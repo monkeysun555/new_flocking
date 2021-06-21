@@ -79,9 +79,9 @@ def main():
 
     elif Config.new_prediction_version == 7 or Config.new_prediction_version == 8 or Config.new_prediction_version == 11 or Config.new_prediction_version == 12:
         model = load_decay_model_new()
-        if Config.new_prediction_version == 8:
-            # target_model = load_keras_target_model('./keras_models/non_heatmap/kk.h5')
-            target_model = load_keras_target_model()
+        if Config.new_prediction_version == 8 or Config.new_prediction_version == 11:
+            target_model = load_keras_target_model('./keras_models/non_heatmap/aa.h5')
+            # target_model = load_keras_target_model()
         else:
             target_model = load_keras_target_model()
         print("load model successfully!")
