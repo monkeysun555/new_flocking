@@ -9,9 +9,11 @@ import os
 
 SHOW = 0
 n_l_groups = 4
-n_enhanced_version = [0, 8, 11, 12, 7]
+# n_enhanced_version = [0, 8, 11, 12, 7]
+n_enhanced_version = [8, 7, 11, 12,  0]
+
 # label = ['Heuristic', 'D-Heuristic', 'LSTM$_{t/c}^{-a}$', 'LSTM$_{t/c}^{-d}$', 'LSTM$_{t/c}$']
-label = ['H-Flocking', 'Self-Pre', 'Co-Pre', 'Prop', 'Flocking']
+label = [ 'Non-Flocking', 'Flocking', 'Flocking-rand', 'Flocking-prop', 'Flocking-TLP']
 
 # n_enhanced_version = [0, 2, -2, 7]
 # label = ['Heuristic', 'D-Heuristic', 'LSTM$_{t/c}^{-}$', 'LSTM$_{t/c}$']
@@ -151,7 +153,7 @@ def read_data_file_enhanced():
     if not os.path.isdir(cdf_path):
         os.makedirs(cdf_path)
     plot_cdf(cdf_freezes, 'Freeze (s)', cdf_path)
-    plot_cdf(cdf_wspsnr, 'Quality (db)', cdf_path)
+    plot_cdf(cdf_wspsnr, 'Quality (dB)', cdf_path)
 
     # return
     compare_path = './compare/'

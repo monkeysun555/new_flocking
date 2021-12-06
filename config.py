@@ -19,7 +19,7 @@ class Config(object):
     # v9: TLP self
     # v10: COOR without buffer/lat assign
     # V11: DNN coor without buffer 
-    # v12: not rate allocation
+    # v12: not rate allocation optimize
     new_prediction_version = 11
     #################################################
 

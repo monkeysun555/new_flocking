@@ -1,7 +1,7 @@
 %!PS-Adobe-3.0 EPSF-3.0
 %%Title: ./figures/fov_prediction/accuracy_nss.eps
 %%Creator: matplotlib version 3.3.2, http://matplotlib.org/
-%%CreationDate: Fri Apr 16 09:37:29 2021
+%%CreationDate: Mon Sep  6 10:12:11 2021
 %%Orientation: portrait
 %%BoundingBox: -126.0 108.0 738.0 684.0
 %%EndComments
@@ -42,7 +42,7 @@ mpldict begin
 /FontMatrix[.001 0 0 .001 0 0]def
 /FontBBox[-1021 -463 1793 1232]def
 /FontType 3 def
-/Encoding [ /space /parenleft /parenright /hyphen /period /zero /one /two /three /four /five /six /seven /eight /C /I /L /M /O /P /R /S /T /a /c /d /e /i /l /n /o /p /r /s /t /v ] def
+/Encoding [ /space /parenleft /parenright /hyphen /period /zero /one /two /three /four /five /six /seven /eight /C /H /L /M /O /P /R /S /T /a /c /d /e /i /l /n /o /p /r /s /t /v /z ] def
 /FontInfo 10 dict dup begin
 /FamilyName (DejaVu Sans) def
 /FullName (DejaVu Sans) def
@@ -54,7 +54,7 @@ mpldict begin
 /UnderlinePosition -130 def
 /UnderlineThickness 90 def
 end readonly def
-/CharStrings 37 dict dup begin
+/CharStrings 38 dict dup begin
 /.notdef 0 def
 /space{318 0 0 0 0 0 _sc
 }_d
@@ -328,9 +328,17 @@ _cl}_e}_d
 456 742 497 736 535 725 _c
 573 713 610 696 644 673 _c
 _cl}_e}_d
-/I{295 0 98 0 197 729 _sc
+/H{752 0 98 0 654 729 _sc
 98 729 _m
 197 729 _l
+197 430 _l
+555 430 _l
+555 729 _l
+654 729 _l
+654 0 _l
+555 0 _l
+555 347 _l
+197 347 _l
 197 0 _l
 98 0 _l
 98 729 _l
@@ -733,6 +741,19 @@ _cl}_d
 235 0 _l
 30 547 _l
 _cl}_d
+/z{525 0 43 0 482 547 _sc
+55 547 _m
+482 547 _l
+482 465 _l
+144 72 _l
+482 72 _l
+482 0 _l
+43 0 _l
+43 82 _l
+381 475 _l
+55 475 _l
+55 547 _l
+_cl}_d
 end readonly def
 
 /BuildGlyph
@@ -765,7 +786,7 @@ FontName currentdict end definefont pop
 /FontMatrix[.001 0 0 .001 0 0]def
 /FontBBox[-1016 -350 1659 1068]def
 /FontType 3 def
-/Encoding [ /c /t ] def
+/Encoding [ /c /s ] def
 /FontInfo 10 dict dup begin
 /FamilyName (DejaVu Sans) def
 /FullName (DejaVu Sans Oblique) def
@@ -804,30 +825,36 @@ end readonly def
 409 560 434 557 459 551 _c
 484 545 510 537 536 526 _c
 _cl}_e}_d
-/t{{392 0 64 0 423 702 _sc
-423 547 _m
-409 477 _l
-230 477 _l
-172 180 _l
-170 169 168 160 167 152 _c
-166 144 166 139 166 135 _c
-166 114 172 99 185 89 _c
-197 79 217 75 245 75 _c
-336 75 _l
-321 0 _l
-235 0 _l
-181 0 141 10 115 31 _c
-89 52 76 84 76 126 _c
-76 133 76 141 77 150 _c
-78 159 80 169 82 180 _c
-140 477 _l
-64 477 _l
-78 547 _l
-153 547 _l
-183 702 _l
-}_e{273 702 _l
-243 547 _l
-423 547 _l
+/s{{521 0 11 -13 500 560 _sc
+500 531 _m
+483 446 _l
+459 458 433 468 407 475 _c
+381 481 354 485 326 485 _c
+278 485 241 477 214 461 _c
+187 445 174 423 174 395 _c
+174 363 205 338 269 321 _c
+273 319 277 318 279 318 _c
+308 309 _l
+368 292 408 274 428 256 _c
+448 238 458 213 458 182 _c
+458 124 435 77 389 41 _c
+343 5 282 -13 208 -13 _c
+179 -13 149 -10 117 -5 _c
+}_e{85 0 49 8 11 20 _c
+29 113 _l
+61 95 94 82 126 74 _c
+158 65 188 61 218 61 _c
+262 61 297 70 325 89 _c
+352 108 366 132 366 161 _c
+366 192 330 217 258 237 _c
+249 239 _l
+218 247 _l
+172 259 138 274 117 294 _c
+96 314 86 339 86 370 _c
+86 428 107 475 151 509 _c
+195 543 254 560 330 560 _c
+360 560 389 557 417 552 _c
+445 547 472 540 500 531 _c
 _cl}_e}_d
 end readonly def
 
@@ -1869,7 +1896,7 @@ setfont
 15.399999999999999 scalefont
 setfont
 58.852148 -2.937500 moveto
-/t glyphshow
+/s glyphshow
 
 grestore
 0.839 0.153 0.157 setrgbcolor
@@ -1909,7 +1936,7 @@ grestore
 24.000 scalefont
 setfont
 gsave
-303.140625 14.400000 translate
+303.210938 14.400000 translate
 0.000000 rotate
 0.000000 0 m /P glyphshow
 14.097656 0 m /r glyphshow
@@ -1922,18 +1949,17 @@ gsave
 89.406250 0 m /o glyphshow
 104.089844 0 m /n glyphshow
 119.300781 0 m /space glyphshow
-126.929688 0 m /I glyphshow
-134.007812 0 m /n glyphshow
-149.218750 0 m /t glyphshow
-158.628906 0 m /e glyphshow
-173.394531 0 m /r glyphshow
-183.261719 0 m /v glyphshow
-197.464844 0 m /a glyphshow
-212.171875 0 m /l glyphshow
-218.839844 0 m /space glyphshow
-226.468750 0 m /parenleft glyphshow
-235.832031 0 m /s glyphshow
-248.335938 0 m /parenright glyphshow
+126.929688 0 m /H glyphshow
+144.976562 0 m /o glyphshow
+159.660156 0 m /r glyphshow
+169.527344 0 m /i glyphshow
+176.195312 0 m /z glyphshow
+188.792969 0 m /o glyphshow
+203.476562 0 m /n glyphshow
+218.687500 0 m /space glyphshow
+226.316406 0 m /parenleft glyphshow
+235.679688 0 m /s glyphshow
+248.183594 0 m /parenright glyphshow
 grestore
 gsave
 52.794375 181.375000 translate

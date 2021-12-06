@@ -178,7 +178,7 @@ def plot_bar(types_data, odata):
 
 
     ax.bar(lstm_o_p, lstm_o, color='none', width=bar_width, edgecolor=new_palette[4], \
-                hatch=patterns[0]*6, linewidth=1.0, zorder = 0, label='LSTM$_{t}$')
+                hatch=patterns[0]*6, linewidth=1.0, zorder = 0, label='LSTM$_{s}$')
     ax.bar(lstm_o_p, lstm_o, color='none', width=bar_width, edgecolor='k', linewidth=0.5)
 
     ax.bar(one_lstm_p, one_lstm, color='none', width=bar_width, edgecolor=new_palette[6], \
@@ -211,7 +211,7 @@ def plot_bar(types_data, odata):
 
     plt.axis([0, curr_pos, 0.3, 0.85])
 
-    p.text(0.5, 0.025, 'Prediction Interval (s)', ha='center', fontsize=24)
+    p.text(0.5, 0.025, 'Prediction Horizon (s)', ha='center', fontsize=24)
     p.text(0.04, 0.5, 'Tile Overlap Ratio', va='center', rotation='vertical', fontsize=24)
 
     # d = .015  # how big to make the diagonal lines in axes coordinates

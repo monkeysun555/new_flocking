@@ -127,7 +127,7 @@ def plot_bar(types_data):
     ax.bar(position2, data2, color='none', width=width, edgecolor='k', linewidth=0.5)
 
     ax.bar(position3, data3, color='none', width=width, edgecolor=new_palette[2], \
-                hatch=patterns[2]*6, linewidth=1.0, zorder = 0, label='LSTM$_{t}$')
+                hatch=patterns[2]*6, linewidth=1.0, zorder = 0, label='LSTM$_{s}$')
     ax.bar(position3, data3, color='none', width=width, edgecolor='k', linewidth=0.5)
 
     ax.bar(position4, data4, color='none', width=width, edgecolor=new_palette[3], \
@@ -151,7 +151,7 @@ def plot_bar(types_data):
     # ax2 = plt.axes()
     plt.axis([0, position4[-1]+width, 0.3, 0.85])
 
-    p.text(0.5, 0.025, 'Prediction Interval (s)', ha='center', fontsize=24)
+    p.text(0.5, 0.025, 'Prediction Horizon (s)', ha='center', fontsize=24)
     # p.text(0.04, 0.5, 'Normalized FoV Score', va='center', rotation='vertical', fontsize=24)
     p.text(0.04, 0.5, 'Tile Overlap Ratio', va='center', rotation='vertical', fontsize=24)
 
